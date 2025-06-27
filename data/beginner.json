@@ -1,7 +1,7 @@
 [
   {
     "question": "What does HTML stand for?",
-    "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+    "options": ["Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Text Markup Language"],
     "answer": "Hyper Text Markup Language"
   },
   {
@@ -11,62 +11,62 @@
   },
   {
     "question": "Which attribute is used to specify an image source in HTML?",
-    "options": ["src", "href", "link"],
+    "options": ["link", "href", "src"],
     "answer": "src"
   },
   {
     "question": "How do you create a hyperlink in HTML?",
-    "options": ["<a href='url'>link</a>", "<link>url</link>", "<hyperlink>url</hyperlink>"],
+    "options": ["<a href='url'>link</a>", "<hyperlink>url</hyperlink>", "<link>url</link>"],
     "answer": "<a href='url'>link</a>"
   },
   {
     "question": "Which HTML tag is used for the largest heading?",
-    "options": ["<h1>", "<head>", "<heading>"],
+    "options": ["<heading>", "<head>", "<h1>"],
     "answer": "<h1>"
   },
   {
     "question": "What is the correct HTML element for inserting a line break?",
-    "options": ["<br>", "<lb>", "<break>"],
+    "options": ["<lb>", "<br>", "<break>"],
     "answer": "<br>"
   },
   {
     "question": "Which tag is used to add a list item?",
-    "options": ["<li>", "<item>", "<listitem>"],
+    "options": ["<item>", "<li>", "<listitem>"],
     "answer": "<li>"
   },
   {
     "question": "Which tag creates an ordered list?",
-    "options": ["<ol>", "<ul>", "<list>"],
+    "options": ["<ul>", "<list>", "<ol>"],
     "answer": "<ol>"
   },
   {
     "question": "Which tag creates an unordered list?",
-    "options": ["<ul>", "<ol>", "<list>"],
+    "options": ["<list>", "<ul>", "<ol>"],
     "answer": "<ul>"
   },
   {
     "question": "What does CSS stand for?",
-    "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System"],
+    "options": ["Creative Style System", "Cascading Style Sheets", "Computer Style Sheets"],
     "answer": "Cascading Style Sheets"
   },
   {
     "question": "Which property is used to change text color in CSS?",
-    "options": ["color", "font-color", "text-color"],
+    "options": ["text-color", "color", "font-color"],
     "answer": "color"
   },
   {
     "question": "How do you select an element with id 'header' in CSS?",
-    "options": ["#header", ".header", "*header"],
+    "options": ["#header", "*header", ".header"],
     "answer": "#header"
   },
   {
     "question": "Which CSS property controls the font size?",
-    "options": ["font-size", "text-size", "font-style"],
+    "options": ["font-style", "text-size", "font-size"],
     "answer": "font-size"
   },
   {
     "question": "How do you make text bold in CSS?",
-    "options": ["font-weight: bold;", "text-style: bold;", "font-style: bold;"],
+    "options": ["text-style: bold;", "font-style: bold;", "font-weight: bold;"],
     "answer": "font-weight: bold;"
   },
   {
@@ -76,27 +76,27 @@
   },
   {
     "question": "Where is the correct place to insert a JavaScript?",
-    "options": ["Both <head> and <body>", "Only in <head>", "Only in <body>"],
+    "options": ["Only in <body>", "Only in <head>", "Both <head> and <body>"],
     "answer": "Both <head> and <body>"
   },
   {
     "question": "How do you write 'Hello World' in an alert box in JavaScript?",
-    "options": ["alert('Hello World');", "msg('Hello World');", "alertBox('Hello World');"],
+    "options": ["alertBox('Hello World');", "msg('Hello World');", "alert('Hello World');"],
     "answer": "alert('Hello World');"
   },
   {
     "question": "How do you create a function in JavaScript?",
-    "options": ["function myFunction() {}", "function:myFunction() {}", "create function myFunction()"],
+    "options": ["create function myFunction()", "function myFunction() {}", "function:myFunction() {}"],
     "answer": "function myFunction() {}"
   },
   {
     "question": "Which operator is used to assign a value in JavaScript?",
-    "options": ["=", "==", "==="],
+    "options": ["==", "=", "==="],
     "answer": "="
   },
   {
     "question": "How do you write a comment in JavaScript?",
-    "options": ["// This is a comment", "<!-- This is a comment -->", "# This is a comment"],
+    "options": ["# This is a comment", "// This is a comment", "<!-- This is a comment -->"],
     "answer": "// This is a comment"
   }
 ]

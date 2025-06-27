@@ -3,35 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Frontend Quiz + Motivation</title>
+  <title>NextQ - Frontend Quiz</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container glass">
-    <h1>🧠 Frontend Quiz Challenge</h1>
+  <header class="hero">
+    <img src="assets/landing-page.svg" alt="Quiz Illustration" class="hero-img" />
+    <div class="hero-text">
+      <h1>NextQ</h1>
+      <p><i>Level Up with Every Question.</i></p>
+    </div>
+  </header>
 
-    <div id="levelSelection">
+  <main class="container">
+    <section id="levelSelection">
       <h2>Select Your Level</h2>
-      <button onclick="startQuiz('beginner')">Beginner</button>
-      <button onclick="startQuiz('intermediate')">Intermediate</button>
-      <button onclick="startQuiz('advanced')">Advanced</button>
-    </div>
+      <div class="level-buttons">
+        <button onclick="startQuiz('beginner')">Beginner</button>
+        <button onclick="startQuiz('intermediate')">Intermediate</button>
+        <button onclick="startQuiz('advanced')">Advanced</button>
+      </div>
+    </section>
 
-    <div id="quizBox" class="hidden">
-      <div id="progress"></div>
-      <div id="question"></div>
-      <ul id="options"></ul>
-      <button id="nextBtn" onclick="nextQuestion()">Next Question</button>
-    </div>
+    <section id="quizBox" class="hidden">
+        <div class="quiz-wrapper">
+            <div class="quiz-left">
+            <div id="progress"></div>
+            <div id="question"></div>
+            <ul id="options"></ul>
+            <button id="nextBtn" onclick="nextQuestion()">Next Question</button>
+            </div>
+            <div class="quiz-right">
+            <img src="assets/quiz.svg" alt="Quiz Illustration" class="quiz-illustration" />
+            </div>
+        </div>
+    </section>
 
-    <div id="resultBox" class="hidden">
+
+    <section id="resultBox" class="hidden">
       <h2>Your Score</h2>
       <p id="scoreText"></p>
       <p id="feedbackText"></p>
       <div id="motivationBox"></div>
       <button onclick="location.reload()">Try Another Level</button>
-    </div>
-  </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>

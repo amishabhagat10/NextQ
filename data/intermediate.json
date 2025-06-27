@@ -1,47 +1,51 @@
 [
   {
     "question": "Which CSS property controls the spacing between lines of text?",
-    "options": ["line-height", "letter-spacing", "text-spacing"],
+    "options": ["letter-spacing", "line-height", "text-spacing"],
     "answer": "line-height"
   },
   {
     "question": "What does the 'this' keyword refer to in JavaScript?",
-    "options": ["Current object", "Previous object", "Global object"],
+    "options": ["Global object", "Previous object", "Current object"],
     "answer": "Current object"
   },
   {
     "question": "Which HTML5 element is used to embed video content?",
-    "options": ["<video>", "<media>", "<movie>"],
+    "options": ["<video>", "<movie>", "<media>"],
     "answer": "<video>"
   },
   {
     "question": "What is the purpose of the CSS z-index property?",
-    "options": ["Controls stack order of elements", "Sets zoom level", "Changes element size"],
+    "options": ["Changes element size", "Controls stack order of elements", "Sets zoom level"],
     "answer": "Controls stack order of elements"
   },
   {
     "question": "Which method converts a JSON string into a JavaScript object?",
-    "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()"],
+    "options": ["JSON.parse()", "JSON.convert()", "JSON.stringify()"],
     "answer": "JSON.parse()"
   },
   {
     "question": "What is event delegation in JavaScript?",
-    "options": ["Attaching a single event listener to a parent element", "Delegating event handling to another script", "Using multiple event listeners on one element"],
+    "options": [
+      "Attaching a single event listener to a parent element",
+      "Delegating event handling to another script",
+      "Using multiple event listeners on one element"
+    ],
     "answer": "Attaching a single event listener to a parent element"
   },
   {
     "question": "Which CSS property makes an element float to the left or right?",
-    "options": ["float", "position", "align"],
+    "options": ["position", "align", "float"],
     "answer": "float"
   },
   {
     "question": "How can you make a list that lists its items with squares?",
-    "options": ["list-style-type: square;", "list-type: squares;", "list-decoration: square;"],
+    "options": ["list-type: squares;", "list-decoration: square;", "list-style-type: square;"],
     "answer": "list-style-type: square;"
   },
   {
     "question": "What will 'typeof NaN' return in JavaScript?",
-    "options": ["number", "NaN", "undefined"],
+    "options": ["NaN", "number", "undefined"],
     "answer": "number"
   },
   {
@@ -51,17 +55,21 @@
   },
   {
     "question": "Which JavaScript keyword is used to declare a constant variable?",
-    "options": ["const", "let", "var"],
+    "options": ["var", "let", "const"],
     "answer": "const"
   },
   {
     "question": "Which CSS property controls the transparency of an element?",
-    "options": ["opacity", "visibility", "transparent"],
+    "options": ["transparent", "opacity", "visibility"],
     "answer": "opacity"
   },
   {
     "question": "What is the correct syntax for referring to an external script called 'app.js'?",
-    "options": ["<script src=\"app.js\"></script>", "<script href=\"app.js\"></script>", "<script name=\"app.js\"></script>"],
+    "options": [
+      "<script src=\"app.js\"></script>",
+      "<script name=\"app.js\"></script>",
+      "<script href=\"app.js\"></script>"
+    ],
     "answer": "<script src=\"app.js\"></script>"
   },
   {
@@ -71,32 +79,32 @@
   },
   {
     "question": "Which property is used to change the background color in CSS?",
-    "options": ["background-color", "bgcolor", "color"],
+    "options": ["color", "bgcolor", "background-color"],
     "answer": "background-color"
   },
   {
     "question": "How do you call a function named 'myFunction' in JavaScript?",
-    "options": ["myFunction()", "call function myFunction()", "call myFunction()"],
+    "options": ["call myFunction()", "call function myFunction()", "myFunction()"],
     "answer": "myFunction()"
   },
   {
     "question": "How do you write an IF statement in JavaScript?",
-    "options": ["if (condition) {}", "if: condition {}", "if condition then {}"],
+    "options": ["if: condition {}", "if condition then {}", "if (condition) {}"],
     "answer": "if (condition) {}"
   },
   {
     "question": "What does CSS stand for?",
-    "options": ["Cascading Style Sheets", "Colorful Style Sheets", "Creative Style Sheets"],
+    "options": ["Colorful Style Sheets", "Creative Style Sheets", "Cascading Style Sheets"],
     "answer": "Cascading Style Sheets"
   },
   {
     "question": "Which tag is used to define a table row in HTML?",
-    "options": ["<tr>", "<td>", "<table>"],
+    "options": ["<table>", "<td>", "<tr>"],
     "answer": "<tr>"
   },
   {
     "question": "What is the default position value of an HTML element?",
-    "options": ["static", "relative", "absolute"],
+    "options": ["absolute", "relative", "static"],
     "answer": "static"
   }
 ]

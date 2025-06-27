@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "options": ["'==' checks value equality, '===' checks value and type equality", "'==' checks type equality, '===' checks value equality", "No difference"],
+    "answer": "'==' checks value equality, '===' checks value and type equality"
+  },
+  {
+    "question": "Which CSS property controls the box model's inner spacing?",
+    "options": ["padding", "margin", "border"],
+    "answer": "padding"
+  },
+  {
+    "question": "What is the output of: typeof NaN in JavaScript?",
+    "options": ["number", "NaN", "undefined"],
+    "answer": "number"
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": ["A function having access to its outer scope", "A loop inside a function", "A block of code executed immediately"],
+    "answer": "A function having access to its outer scope"
+  },
+  {
+    "question": "Which method is used to create a new array from another array by applying a function to each element?",
+    "options": ["map()", "forEach()", "filter()"],
+    "answer": "map()"
+  },
+  {
+    "question": "What is the purpose of the CSS 'flex-grow' property?",
+    "options": ["Specifies how much a flex item will grow relative to the rest", "Sets the initial size of a flex item", "Aligns flex items horizontally"],
+    "answer": "Specifies how much a flex item will grow relative to the rest"
+  },
+  {
+    "question": "Which HTML5 API allows storing data in the user's browser?",
+    "options": ["localStorage", "cookies", "sessionStorage"],
+    "answer": "localStorage"
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "options": ["Event propagates from child to parent elements", "Event propagates from parent to child elements", "Event does not propagate"],
+    "answer": "Event propagates from child to parent elements"
+  },
+  {
+    "question": "How do you prevent event bubbling?",
+    "options": ["event.stopPropagation()", "event.preventDefault()", "event.cancel()"],
+    "answer": "event.stopPropagation()"
+  },
+  {
+    "question": "Which CSS unit is relative to the root element’s font size?",
+    "options": ["rem", "em", "px"],
+    "answer": "rem"
+  },
+  {
+    "question": "What will this JS code output? `console.log(0.1 + 0.2 === 0.3);`",
+    "options": ["false", "true", "Error"],
+    "answer": "false"
+  },
+  {
+    "question": "Which function is used to parse a string to an integer in JavaScript?",
+    "options": ["parseInt()", "parse()", "intParse()"],
+    "answer": "parseInt()"
+  },
+  {
+    "question": "What is the output of `typeof null` in JavaScript?",
+    "options": ["object", "null", "undefined"],
+    "answer": "object"
+  },
+  {
+    "question": "Which method adds one or more elements to the end of an array?",
+    "options": ["push()", "pop()", "shift()"],
+    "answer": "push()"
+  },
+  {
+    "question": "What is the CSS property to control the spacing between letters?",
+    "options": ["letter-spacing", "word-spacing", "text-indent"],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "Which CSS selector selects elements with a specific attribute?",
+    "options": ["[attr]", ".attr", "#attr"],
+    "answer": "[attr]"
+  },
+  {
+    "question": "In JavaScript, what does 'use strict' do?",
+    "options": ["Enables strict mode which catches common coding mistakes", "Enables debugging", "Disables errors"],
+    "answer": "Enables strict mode which catches common coding mistakes"
+  },
+  {
+    "question": "Which CSS property makes text truncate with an ellipsis when overflowing?",
+    "options": ["text-overflow: ellipsis;", "overflow: hidden;", "white-space: nowrap;"],
+    "answer": "text-overflow: ellipsis;"
+  },
+  {
+    "question": "How do you write an arrow function in JavaScript?",
+    "options": ["const func = () => {}", "function => {}", "() => function {}"],
+    "answer": "const func = () => {}"
+  },
+  {
+    "question": "Which HTTP method is used to update a resource partially?",
+    "options": ["PATCH", "PUT", "POST"],
+    "answer": "PATCH"
+  }
+]

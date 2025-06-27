@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Quiz + Motivation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container glass">
+    <h1>🧠 Frontend Quiz Challenge</h1>
+
+    <div id="levelSelection">
+      <h2>Select Your Level</h2>
+      <button onclick="startQuiz('beginner')">Beginner</button>
+      <button onclick="startQuiz('intermediate')">Intermediate</button>
+      <button onclick="startQuiz('advanced')">Advanced</button>
+    </div>
+
+    <div id="quizBox" class="hidden">
+      <div id="progress"></div>
+      <div id="question"></div>
+      <ul id="options"></ul>
+      <button id="nextBtn" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <div id="resultBox" class="hidden">
+      <h2>Your Score</h2>
+      <p id="scoreText"></p>
+      <p id="feedbackText"></p>
+      <div id="motivationBox"></div>
+      <button onclick="location.reload()">Try Another Level</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
